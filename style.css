@@ -10,7 +10,9 @@
   background-size: cover;
   position: absolute;
   top: 0;
-  width: 100vw;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 95vw;
   height: 33vh;
 
 }
@@ -21,8 +23,9 @@
   background-size: cover;
   position: absolute;
   top: 50%;
-  transform: translate(0%, -50%);
-  width: 100vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95vw;
   height: 33vh;
 }
 
@@ -32,6 +35,8 @@
   background-size: cover;
   position: absolute;
   bottom: 0;
-  width: 100vw;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 95vw;
   height: 33vh;
 }
