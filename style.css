@@ -6,21 +6,32 @@
 
 .box-roma {
   background-image: url(immagini/roma.jpg);
-  width: 100vw;
-  height: 30vh;
+  background-repeat: no-repeat;
   background-size: cover;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 33vh;
+
 }
 
 .box-copenaghen {
   background-image: url(immagini/copenaghen.jpg);
-  width: 100vw;
-  height: 30vh;
+  background-repeat: no-repeat;
   background-size: cover;
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  width: 100vw;
+  height: 33vh;
 }
 
 .box-tokyo {
   background-image: url(immagini/tokyo.jpg);
-  width: 100vw;
-  height: 30vh;
+  background-repeat: no-repeat;
   background-size: cover;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 33vh;
 }
