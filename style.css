@@ -3,3 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.box-roma {
+  background-image: url(immagini/roma.jpg);
+  width: 100vw;
+  height: 30vh;
+  background-size: cover;
+}
+
+.box-copenaghen {
+  background-image: url(immagini/copenaghen.jpg);
+  width: 100vw;
+  height: 30vh;
+  background-size: cover;
+}
+
+.box-tokyo {
+  background-image: url(immagini/tokyo.jpg);
+  width: 100vw;
+  height: 30vh;
+  background-size: cover;
+}
